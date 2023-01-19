@@ -1,7 +1,6 @@
 package org.collection.list;
 
 import org.collection.model.Student;
-
 import java.util.LinkedList;
 import java.util.List;
 
