@@ -7,7 +7,7 @@ import java.util.Objects;
  * To represent the complex real world problems there was a need
  * for a data model that is closely related to real world.
  * Object Oriented Data Model represents the real world problems easily.
- *
+ * <p>
  * Object Oriented Data Model :
  * In Object Oriented Data Model,
  * data and their relationships are contained in a single structure which
@@ -18,7 +18,7 @@ import java.util.Objects;
  * and Relational Database Model as it is clear from the following figure :
  */
 
-public class Animal implements Comparable<Animal>{
+public class Animal implements Comparable<Animal> {
 
     private String name;
     private int age;
@@ -28,7 +28,7 @@ public class Animal implements Comparable<Animal>{
     public Animal() {
     }
 
-    public Animal(String name, int age, double weight,Classification classification) {
+    public Animal(String name, int age, double weight, Classification classification) {
         this.name = name;
         this.age = age;
         this.classification = classification;
@@ -61,8 +61,7 @@ public class Animal implements Comparable<Animal>{
         if (this == o) return true;
         if (!(o instanceof Animal animal)) return false;
         return getAge() == animal.getAge()
-                && getName().equals(animal.getName())
-                && getClassification() == animal.getClassification();
+                && getName().equals(animal.getName());
     }
 
     @Override
