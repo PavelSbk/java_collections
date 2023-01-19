@@ -66,12 +66,12 @@ public class ArrayListMethods {
         arrayList.remove("C");
         arrayList.forEach(System.out::println);
         List<Animal> animals = new ArrayList<>();
-        Animal a1 = new Animal("Слон", 20, Classification.HERBIVORE);
-        Animal a2 = new Animal("Лев", 10, Classification.PREDATOR);
-        Animal a3 = new Animal("Гиена", 11, Classification.PREDATOR);
-        Animal a4 = new Animal("Жираф", 20, Classification.HERBIVORE);
-        Animal a5 = new Animal("Гибон", 35, Classification.OMNIVOROUS);
-        Animal a6 = new Animal("Гибон", 27, Classification.OMNIVOROUS);
+        Animal a1 = new Animal("Слон", 20, 2000, Classification.HERBIVORE);
+        Animal a2 = new Animal("Лев", 10, 460, Classification.PREDATOR);
+        Animal a3 = new Animal("Гиена", 11, 30.3, Classification.PREDATOR);
+        Animal a4 = new Animal("Жираф", 20, 890, Classification.HERBIVORE);
+        Animal a5 = new Animal("Гибон", 35, 32, Classification.OMNIVOROUS);
+        Animal a6 = new Animal("Гибон", 27, 30.3, Classification.OMNIVOROUS);
         animals.add(a1);
         animals.add(a2);
         animals.add(a3);
