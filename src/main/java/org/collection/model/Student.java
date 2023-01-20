@@ -66,16 +66,17 @@ public class Student {
                 +
                 "name = '" + name + '\''
                 +
+                ", surname = '" + surname + '\''
+                +
                 ", course = " + course
                 +
                 '}';
     }
-
-//    public static void main(String[] args) {
-//        Student st1 = new Student("A", 1);
-//        Student st2 = new Student("B", 2);
-//        Student st3 = new Student("C", 3);
-//        Student st4 = new Student("D", 4);
-//        Student st5 = new Student("E", 5);
-//    }
+//    Student st1 = new Student("A", 1);
+//    Student st2 = new Student("B", 2);
+//    Student st3 = new Student("C", 3);
+//    Student st4 = new Student("D", 4);
+//    Student st5 = new Student("E", 5);
+//    Student st6 = new Student("F", 5);
+//    Student st7 = new Student("G", 5);
 }
