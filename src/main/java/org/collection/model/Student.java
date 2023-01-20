@@ -1,8 +1,9 @@
 package org.collection.model;
 
+import java.util.Comparator;
 import java.util.Objects;
 
-public class Student {
+public class Student implements Comparable<Student> {
 
     private String name;
 
@@ -43,6 +44,18 @@ public class Student {
 
     public void setCourse(int course) {
         this.course = course;
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        if (name.equals(o.getName())
+                && surname.equals(o.getSurname())) {
+            return Integer.compare(course, o.getCourse());
+        }
+        if (name.equals(o.getName())) {
+            return surname.compareTo(o.getSurname());
+        }
+        return name.compareTo(o.getName());
     }
 
     @Override

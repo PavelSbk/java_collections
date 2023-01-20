@@ -7,7 +7,11 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * LinkedHashMap - является наследником HashMap.
+ * LinkedHashMap - является наследником HashMap. *
+ * public class LinkedHashMap<K,V>
+ *     extends HashMap<K,V>
+ *     implements Map<K,V>
+ *
  * Хранит информацию о порядке добавления элементов или порядке их использования.
  * Производительность методов LinkedHashMap немного ниже чем у HashMap.
  *
