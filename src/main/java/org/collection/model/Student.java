@@ -72,11 +72,13 @@ public class Student {
                 +
                 '}';
     }
-//    Student st1 = new Student("A", 1);
-//    Student st2 = new Student("B", 2);
-//    Student st3 = new Student("C", 3);
-//    Student st4 = new Student("D", 4);
-//    Student st5 = new Student("E", 5);
-//    Student st6 = new Student("F", 5);
-//    Student st7 = new Student("G", 5);
+//    Student st1 = new Student("A", "Abc", 1);
+//    Student st2 = new Student("B", "Bcd", 2);
+//    Student st3 = new Student("C", "Cde", 3); //
+//    Student st4 = new Student("D", "Def", 4);
+//    Student st5 = new Student("A", "Efg", 5);
+//    Student st6 = new Student("F", "Cde", 5);
+//    Student st7 = new Student("G", "Bcd", 5);
+//    Student st8 = new Student("C", "Cde", 3); //
+//    Student st9 = new Student("Z", "Zwx", 3);
 }
