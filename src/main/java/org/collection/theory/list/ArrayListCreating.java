@@ -1,4 +1,4 @@
-package org.collection.list;
+package org.collection.theory.list;
 
 import java.util.ArrayList;
 import java.util.List;

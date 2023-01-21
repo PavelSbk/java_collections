@@ -1,4 +1,4 @@
-package org.collection.iterator;
+package org.collection.theory.iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package org.collection.comparation;
+package org.collection.theory.comparation;
 
 import org.collection.model.Animal;
 import org.collection.model.Classification;

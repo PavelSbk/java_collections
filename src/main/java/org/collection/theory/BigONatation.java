@@ -1,4 +1,4 @@
-package org.collection;
+package org.collection.theory;
 
 /**
  * Big O – это мера эффективности «в худшем случае», верхняя граница того,

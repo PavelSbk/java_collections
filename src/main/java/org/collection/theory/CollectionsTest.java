@@ -1,6 +1,6 @@
-package org.collection;
+package org.collection.theory;
 
-import org.collection.comparation.AnimalNameCompare;
+import org.collection.theory.comparation.AnimalNameCompare;
 import org.collection.model.Animal;
 import org.collection.model.Classification;
 

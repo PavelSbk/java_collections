@@ -1,4 +1,4 @@
-package org.collection.list;
+package org.collection.theory.list;
 
 import org.collection.model.Animal;
 import org.collection.model.Classification;

@@ -1,4 +1,4 @@
-package org.collection.set;
+package org.collection.theory.set;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
