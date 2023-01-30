@@ -65,4 +65,21 @@ public class ArrayListPractice {
         list.remove(list.size() - 1);
         return list;
     }
+
+    /**
+     * Метод проверяет оба списка, содержат ли они одновременно переданный элемент,
+     * если содержат - метод удаляет элемент из первого списка,
+     * потом второй список добавляется в первый.
+     * @param left список 1
+     * @param right список 2
+     * @param str элемент, который возможно содержится в этих списках
+     * @return индекс элемента, который пришел в параметрах метода из общего списка
+     */
+    public static int containsElement(List<String> left, List<String> right, String str) {
+        if (left.contains(str) && right.contains(str)) {
+            left.remove(str);
+            left.addAll(right);
+        }
+        return left.indexOf(str);
+    }
 }

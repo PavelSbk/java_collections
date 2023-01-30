@@ -126,4 +126,33 @@ class ArrayListPracticeTest {
         assertThat(result.size()).isEqualTo(8);
         assertThat(result.contains("nine")).isFalse();
     }
+
+    @Test
+    public void containsElement() {
+        List<String> left = new ArrayList<>();
+        left.add("first");
+        left.add("second");
+        left.add("third");
+        List<String> right = new ArrayList<>();
+        right.add("fourth");
+        right.add("second");
+        right.add("fifth");
+        String check = "second";
+        int result = ArrayListPractice.containsElement(left, right, check);
+        assertThat(result).isEqualTo(3);
+    }
+
+    @Test
+    public void containsElementInFirstList() {
+        List<String> left = new ArrayList<>();
+        left.add("first");
+        left.add("second");
+        left.add("third");
+        List<String> right = new ArrayList<>();
+        right.add("fourth");
+        right.add("fifth");
+        String check = "second";
+        int result = ArrayListPractice.containsElement(left, right, check);
+        assertThat(result).isEqualTo(1);
+    }
 }
